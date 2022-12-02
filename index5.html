@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content:space-around;
+            align-items:stretch;
+            border: 5px solid red;
+            height: 100vh;
+            flex-direction: row;
+        }
+        p {
+                border: 5px solid green;
+        }
+        .item1 {
+            flex-grow: 2;
+        }
+        .item2 {
+          flex-grow: 0;  
+        }
+        .item3 {
+          flex-grow: 1;  
+          flex-basis: 10%;
+          
+        }
+    </style>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <p class="item1">
+            Первый элемент Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum est consectetur laborum dolorem iste dignissimos, doloribus quod dicta, enim consequatur magni dolorum.</p>        
+        
+        <p class="item2">Второй элемент Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ratione sequi quidem fuga voluptates amet assumenda atque accusantium, nobis commodi expedita ullam. Explicabo, voluptate beatae consequatur et molestias impedit reprehenderit.</p>
+        
+        <p class="item3">Третий элемент Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, optio Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, similique!
+
+        </p>
+    </div>
+
+</body>
+</html>
